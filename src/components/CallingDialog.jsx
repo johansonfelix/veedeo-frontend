@@ -22,15 +22,21 @@ const useStyles = makeStyles((theme) => ({
 
 const CallingDialog = () => {
   const classes = useStyles();
-  const { call, answerCall } = useContext(SocketContext);
+  const { call, setCall, answerCall } = useContext(SocketContext);
 
   const hideContainer = () => {
-    document.querySelector(".makeStyles-gridContainer-13").style.display =
+    document.querySelector(".home").style.display =
       "none";
   };
 
+  const rejectCall = () =>{
+    document.querySelector(".home").style.display =
+    "flex";
+   setCall({});
+  }
+
   const onAnswer = (e) => {
-    document.querySelector(".makeStyles-gridContainer-13").style.display =
+    document.querySelector(".home").style.display =
       "flex";
     answerCall();
   };
@@ -55,7 +61,7 @@ const CallingDialog = () => {
           <Button
             variant="contained"
             color="secondary"
-            onClick={""}
+            onClick={rejectCall}
             className={classes.notificationButtons}
             startIcon={<PhoneDisabled fontSize="large" />}
           >

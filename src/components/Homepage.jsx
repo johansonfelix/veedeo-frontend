@@ -76,11 +76,11 @@ const Homepage = () => {
 
   return (
     <div className={classes.homepage}>
-      {call.isReceivingCall && !callAccepted && <CallingDialog />}
+      {call?.isReceivingCall && !callAccepted && <CallingDialog />}
 
       <Grid
         container
-        className={`${classes.gridContainer} animate__animated animate__zoomIn`}
+        className={`${classes.gridContainer} animate__animated animate__zoomIn home`}
         spacing={2}
         style={{ position: "relative" }}
       >
