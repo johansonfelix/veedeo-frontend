@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/johansonfelix/coronavirus-tracker">
-    <img src="src/images/veedeo.png" alt="Logo">
+    <img src="src/images/veedeo.png" alt="Logo" width="300">
   </a>
 
   <h1 align="center">Veedeo</h1>
