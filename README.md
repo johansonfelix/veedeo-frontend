@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/johansonfelix/coronavirus-tracker">
+  <a href="https://github.com/johansonfelix/veedeo-frontend">
     <img src="src/images/veedeo.png" alt="Logo" width="400">
   </a>
   <p align="center">
