@@ -112,15 +112,15 @@ To setup the application on your local environment from a terminal:
   yarn install 
    ```
 
-4. Navigate to backend directory and start server
+3. Navigate to backend directory and start server
     ```sh
    yarn nodemon 
    ```
-5. Navigate to front end directory and start front end
+4. Navigate to front end directory and start front end
     ```sh
    yarn start
    ```
-6. Test application in browser at localhost:3000
+5. Test application in browser at localhost:3000
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
