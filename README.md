@@ -23,7 +23,7 @@ No data is stored and signup/authentication is not needed. The peer-to-peer comm
 library. Additional JavaScript libraries and frameworks are used including Material UI and Animate.css for React component styling. The
 application is deployed on Heroku (backend) and on Netlify (frontend). Checkout backend server : <a href="https://github.com/johansonfelix/veedeo">veedeo</a>
     <br />
-    <a href="https://github.com/johansonfelix/coronavirus-tracker/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/johansonfelix/veedeo-front-end/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://veedeo.netlify.app//">View Demo</a>
