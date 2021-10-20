@@ -109,7 +109,7 @@ To setup the application on your local environment from a terminal:
    ```
 2. Install dependencies in your project
     ```sh
-  yarn install 
+    yarn install 
    ```
 
 3. Navigate to backend directory and start server
