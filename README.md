@@ -131,7 +131,7 @@ To setup the application on your local environment from a terminal:
 
 <img src="images/screely-1634687796461.png" width="50%">
 <img src="images/Ivana.png" width="50%">
-<img src="images/screely-1634687796461.png" width="50%">
+<img src="images/screely-1634687897881.png" width="50%">
 <img src="images/Mark.png" width="50%">
 
 
