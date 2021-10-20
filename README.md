@@ -66,7 +66,7 @@ application is deployed on Heroku (backend) and on Netlify (frontend). Checkout 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://veedeo.netlify.app/
+[![Product Name Screen Shot][product-screenshot]](https://veedeo.netlify.app/)]
 A simple Video Chat Web Application built with Node.js as the backend server and React.js on the front end. Veedeo is a free solution
 allowing others to meet and communicate over an unmonitored, unlimited video chat session in the browser. The focus is on ease of use.
 No data is stored and signup/authentication is not needed. The peer-to-peer communication is designed using the Socket.io JavaScript
@@ -79,7 +79,7 @@ application is deployed on Heroku (backend) and on Netlify (frontend). Visit htt
 
 ### Built With
 
-Coronavirus Tracker was built with the following technologies:
+Veedeo was built with the following technologies:
 
 * [React](https://reactjs.org/) 
 * [Socket.io](https://socket.io/)
