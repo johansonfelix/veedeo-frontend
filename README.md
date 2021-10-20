@@ -14,22 +14,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/johansonfelix/coronavirus-tracker">
-    <img src="src/images/veedeo.png" alt="Logo" width="300">
+    <img src="src/images/veedeo.png" alt="Logo" width="400">
   </a>
-
-  <h1 align="center">Veedeo</h1>
-
   <p align="center">
-    Simple Spring Boot application tracking the spread of the Coronavirus COVID-19 pandemic. Stay up-to-date with COVID-19 data summarized by country.
+    A simple Video Chat Web Application built with Node.js as the backend server and React.js on the front end. Veedeo is a free solution
+allowing others to meet and communicate over an unmonitored, unlimited video chat session in the browser. The focus is on ease of use.
+No data is stored and signup/authentication is not needed. The peer-to-peer communication is designed using the Socket.io JavaScript
+library. Additional JavaScript libraries and frameworks are used including Material UI and Animate.css for React component styling. The
+application is deployed on Heroku (backend) and on Netlify (frontend). Checkout backend server : <a href="https://github.com/johansonfelix/veedeo">veedeo</a>
     <br />
     <a href="https://github.com/johansonfelix/coronavirus-tracker/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://covidtrackapplication.herokuapp.com/">View Demo</a>
+    <a href="https://veedeo.netlify.app//">View Demo</a>
     ·
-    <a href="https://github.com/johansonfelix/coronavirus-tracker/issues">Report Bug</a>
+    <a href="https://github.com/johansonfelix/veedeo-frontend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/johansonfelix/coronavirus-tracker/issues">Request Feature</a>
+    <a href="https://github.com/johansonfelix/veedeo-frontend/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,7 +54,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -66,12 +66,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://covidtrackapplication.herokuapp.com/)
-Since the pandemic began, a great deal of information has circulated online and on social media about COVID-19. While the pandemic is a serious issue, there is a lot of misinformation and a lot of emotions associated with it. 
-
-Coronavirus Tracker allows for one to look at the data rationally and to have the data speak for itself. The application tracks the total number of reported cases across the globe and the total number of cases reported per country and province.
-
-The data is updated daily and can be exported from the application in various file formats. 
+[![Product Name Screen Shot][product-screenshot]](https://veedeo.netlify.app/
+A simple Video Chat Web Application built with Node.js as the backend server and React.js on the front end. Veedeo is a free solution
+allowing others to meet and communicate over an unmonitored, unlimited video chat session in the browser. The focus is on ease of use.
+No data is stored and signup/authentication is not needed. The peer-to-peer communication is designed using the Socket.io JavaScript
+library. Additional JavaScript libraries and frameworks are used including Material UI and Animate.css for React component styling. The
+application is deployed on Heroku (backend) and on Netlify (frontend). Visit https://veedeo.netlify.app/ for a demonstration.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,11 +81,11 @@ The data is updated daily and can be exported from the application in various fi
 
 Coronavirus Tracker was built with the following technologies:
 
-* [Java](https://java.com/) with [Maven](https://maven.apache.org/)
-* [Spring Boot](https://spring.io/)
-* [Thymeleaf](https://thymeleaf.org/)
+* [React](https://reactjs.org/) 
+* [Socket.io](https://socket.io/)
 
-* Deployed on [Heroku](https://heroku.com/)
+
+* Deployed on [Netlify](https://www.netlify.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -94,28 +94,33 @@ Coronavirus Tracker was built with the following technologies:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To setup the application on your local environment: 
-
-### Prerequisites
-
-* Java 12
-  ```sh
-  java --version
-  ```
- * Maven  
- 
- * Compiler: Intellij (Personal Preference)
+To setup the application on your local environment from a terminal: 
 
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/johansonfelix/coronavirus-tracker.git
+   git clone https://github.com/johansonfelix/veedeo-frontend.git
    ```
-2. Run project from compiler
+   and the backend repo 
+     ```sh
+   git clone https://github.com/johansonfelix/veedeo.git
+   ```
+2. Install dependencies in your project
+    ```sh
+  yarn install 
+   ```
 
-4. Open browser to localhost:8080
+4. Navigate to backend directory and start server
+    ```sh
+   yarn nodemon 
+   ```
+5. Navigate to front end directory and start front end
+    ```sh
+   yarn start
+   ```
+6. Test application in browser at localhost:3000
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -124,31 +129,15 @@ To setup the application on your local environment:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<h3>Application uses pagination to display data</h3>
-<img src="src/main/resources/static/images/screen2.png" width="50%">
+<img src="images/screely-1634687796461.png" width="50%">
+<img src="images/Ivana.png" width="50%">
+<img src="images/screely-1634687796461.png" width="50%">
+<img src="images/Mark.png" width="50%">
 
-<h3>Data can can also be filtered or searched</h3>
-<img src="src/main/resources/static/images/screen3.png" width="50%">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Add graphs and comparison mechanism
-- [] Add reported number of deaths and recovered cases data
-
-<h3>Disclaimer</h3>
-<ol>
-<li> Some state/values are saved in the Spring Service (bad practice). The application is simple and small which justifies my reason to have some state saved there.</li>
-<li> The application does not have any tests at the moment</li>
-<li> The data validity is not checked. The application is experimental - data may be incorrect. </li>
-</ol>
-See the [open issues](https://github.com/johansonfelix/coronavirus-tracker/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -184,19 +173,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 * [Johanson Felix](johansonfelix.github.io) - (felix.johanson@gmail.com) 
 * [LinkedIn][license-url]</br>
-* Project Link: [https://github.com/johansonfelix/coronavirus-tracker.git](https://github.com/johansonfelix/coronavirus-tracker.git)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [koushikkothagal](https://github.com/koushikkothagal)
-* [CSSEGISandData](https://github.com/CSSEGISandData/COVID-19)
-* [othneildrew](https://github.com/othneildrew/Best-README-Template)
-
+* Project Link: [https://github.com/johansonfelix/veedeo-frontend.git](https://github.com/johansonfelix/veedeo-frontend.git)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -213,6 +190,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-url]: https://github.com/johansonfelix/coronavirus-tracker/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]:https://www.linkedin.com/in/johanson-felix-336a94186/
-[product-screenshot]: src/main/resources/static/images/screen1.png
-[demo]:https://covidtrackapplication.herokuapp.com/
+[product-screenshot]: images/Ivana.png
+[demo]:https://veedeo.netlify.app/
 [demo-badge]:https://img.shields.io/badge/-demo-green.svg?style=for-the-badge&color=green
